@@ -1,0 +1,34 @@
+
+body{
+	/*background-color: purple;*/
+	background-image: url("pic.jpg")
+	
+}
+h1  {
+	text-align: center;
+	color: #ffcc00;
+	background-color: gray;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+h2 {
+	text-align: center;
+	color: maroon;
+	background-color: gray;
+	text-decoration: underline;
+	
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#comments{
+	font-style: italic;
+	color: #cc0066;
+	background-color: white;
+	text-align: center;
+}

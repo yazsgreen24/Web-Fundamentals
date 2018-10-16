@@ -1,0 +1,90 @@
+<html>
+	<!--
+		This web page demonstrates lists.
+		
+		Lists in HTML come in 3 different forms:
+			- Ordered lists (numbered)
+			- Unordered lists (bullets)
+			- Descriptive lists(terms with definitions)
+			
+		
+		Author: Tierra 
+		date:9/18/18
+	-->
+	<head>
+		<title> Lists Demo</title>
+	</head>
+	
+	<body>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="headings.html">Heading Demo</a></li>
+			<li><a href="paragraphs.html">Paragraph Demo</a></li>
+			<li><a href="lists.html">List Demo</a></li>
+			<li><a href="TextDemo.html">Text Demo</a></li>
+			<li><a href="TableDemo.html"> Table Demo</a></li>
+			<li><a href="recipe.html"> week 1 - 3 Review</a></li>
+		</ul>
+		<h1>ordered list example</h1>
+		<!--
+			use the type modifier to changing the numbering type
+			of an ordered lists:
+				type = "1" ( default ) - numbers 
+				type = "A" - uppercase letters
+				type = "a" - lowercase letters
+				type = "I" uppercase roman numerals
+				type = "i" - lowercase roman numerals
+				
+				you can also start at a certain valu as well
+				use the start modifier - be sure to use numbers
+				start = 50 - starts the list at 50
+				
+			<ol type = "character type">
+			</ol>
+			
+		-->
+				
+		<ol type = "a" start = 5>
+			<li>numbered list item</li>
+			<li> Another numbered list item</li>
+			<li>And Another numbered list item</li>
+		</ol>
+		<!--
+			use the list-style-type modifier to change the symbol
+			that is display for the unordered list
+			
+				 use type="disc" - for the default bullets 
+					 type="circle"-for circle
+					list-style-type:square-for squares
+					list-style-type:none- to have the list unmarked 
+		-->
+		<h1>unordered list example</h1>
+		<ul type="circle">
+			<li>bulleted list item</li>
+			<li> Another bulleted list item</li>
+			<li>And Another bulleted list item</li>
+		</ul>
+		<h1>Descriptive list example</h1>
+		<dl>
+			<dt>descriptive term</dt>
+			<dd> definition of descriptive term</dd>
+			<dt> another descriptive term</dt>
+			<dd> and another definition of another descriptive term</dd>
+		</dl>
+		<!--
+			Nested list example:
+			
+			
+				we can a list nested within another list
+		-->
+		<h1> Nested Lists Example</h1>
+		<ul>
+			<li> Lists come in a variety of types</li>
+			<ul type = "square">
+				<li> unordered lists</li>
+				<li> ordered</li>
+				<li> descriptive lists</li>
+			</ul>
+		</ul>	
+	</body>
+</html>
